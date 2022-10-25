@@ -119,7 +119,7 @@ int MyTableMessage(UIElement *element, UIMessage message, int di, void *dp) {
 #ifdef UI_LINUX
 int main(int argc, char **argv) {
 #else
-int WinMain(HINSTANCE instance, HINSTANCE previousInstance, LPSTR commandLine, int showCommand) {
+int WINAPI WinMain(HINSTANCE instance, HINSTANCE previousInstance, LPSTR commandLine, int showCommand) {
 #endif
 
 	UIInitialise();

@@ -227,7 +227,7 @@ bool _UIMessageLoopSingle(int *result) {
 }
 
 #ifdef _WIN32
-int WinMain(HINSTANCE instance, HINSTANCE previousInstance, char *commandLine, int showCommand) {
+int WINAPI WinMain(HINSTANCE instance, HINSTANCE previousInstance, char *commandLine, int showCommand) {
 #else
 int main(int argc, char **argv) {
 #endif

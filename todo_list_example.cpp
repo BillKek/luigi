@@ -146,7 +146,7 @@ int InputTextboxMessage(UIElement *element, UIMessage message, int di, void *dp)
 	return 0;
 }
 
-int WinMain(HINSTANCE, HINSTANCE, char *, int) {
+int WINAPI WinMain(HINSTANCE, HINSTANCE, char *, int) {
 	// Initialise Luigi and create a window.
 	
 	UIInitialise();
